@@ -11,7 +11,7 @@ do {} until (Elevate-Privileges SeTakeOwnershipPrivilege)
 Write-Output "Uninstalling default apps"
 $apps = @(
     # default Windows 10 apps
-    "Microsoft.3DBuilder"
+    # "Microsoft.3DBuilder"
     "Microsoft.Appconnector"
     "Microsoft.BingFinance"
     "Microsoft.BingNews"
@@ -19,7 +19,7 @@ $apps = @(
     "Microsoft.BingTranslator"
     "Microsoft.BingWeather"
     #"Microsoft.FreshPaint"
-    "Microsoft.Microsoft3DViewer"
+    #"Microsoft.Microsoft3DViewer"
     "Microsoft.MicrosoftOfficeHub"
     "Microsoft.MicrosoftSolitaireCollection"
     "Microsoft.MicrosoftPowerBIForWindows"
@@ -29,7 +29,7 @@ $apps = @(
     "Microsoft.Office.OneNote"
     #"Microsoft.OneConnect"
     "Microsoft.People"
-    "Microsoft.Print3D"
+    #"Microsoft.Print3D"
     "Microsoft.SkypeApp"
     "Microsoft.Wallet"
     #"Microsoft.Windows.Photos"
@@ -61,7 +61,7 @@ $apps = @(
     "Microsoft.WindowsFeedbackHub"
 
     # Creators Update apps
-    "Microsoft.Microsoft3DViewer"
+    #"Microsoft.Microsoft3DViewer"
     #"Microsoft.MSPaint"
 
     #Redstone apps
